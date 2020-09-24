@@ -1,0 +1,166 @@
+body {
+    padding-top: 800px;
+    margin: 20;
+}
+
+#s1 {
+    background-image: url("https://media.gettyimages.com/photos/sir-tim-bernerslee-attends-the-campus-party-italia-2019-as-keynote-picture-id1164221935?s=2048x2048 ");
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    display: table;
+    z-index: 9;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#div1 {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+#img {
+    width: 250px;
+    margin: 50px;
+    border-radius: 50%;
+
+
+}
+
+h1 {
+    font-size: 45px;
+    font-family: inherit;
+    font-variant: small-caps;
+    font-weight: 600;
+
+
+}
+
+#div2 {
+    height: 6px;
+    background-color: black;
+    width: 80px;
+    margin: 8px auto;
+
+
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+
+#bio {
+    text-align: center;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+}
+
+#h1 {
+    font-variant: small-caps;
+    font-size: 70px;
+}
+
+.menu {
+    list-style: none;
+    font-family: inherit;
+    position: fixed;
+    font-variant: small-caps;
+    right: 30px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.links {
+    font-family: inherit;
+    font-variant: small-caps;
+    float: left;
+    color: black;
+    padding: 5px;
+}
+
+.links:hover {
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+#videos {
+    text-align: center;
+}
+
+#work {
+    text-align: center;
+}
+
+.article {
+    font-size: 20px;
+    font-variant: small-caps;
+    color: black;
+}
+
+.article:hover {
+    color: antiquewhite;
+    font-size: 25px
+}
+
+a {
+    text-decoration: none;
+}
+
+#writings {
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#links {
+    font-family: inherit;
+    font-variant: small-caps;
+    float: left;
+    color: black;
+    padding: 5px;
+}
+
+#contacts iframe {
+    width: 100%;
+}
+
+#contacts {
+    text-align: center;
+}
+
+.contact1 a {
+    color: black;
+    text-shadow: none;
+    font-variant: small-caps;
+}
+
+.contact1 h3 {
+    display: inline;
+}
+
+.contact1 a:hover {
+    color: antiquewhite;
+    font-size: 25px
+}
